@@ -4,14 +4,12 @@ Created on 26/01/2013
 @author: NADHINE
 '''
 
-
-
 import tabuleiro
         
 
-class jogodaVelha():
-    def __init__(self):
-        self.tabuleiro = tabuleiro()
+class JogodaVelha():
+    def __init__(self,tabuleiro):
+        self.tabuleiro = tabuleiro
         self.tabuleiro.mostraTabuleiro()
         self.numJogador = 1
     def entrada(self):
@@ -26,12 +24,9 @@ class jogodaVelha():
             print "jogada invalida!!!"  
     def jogo(self):
         pass
-            
-                 
-            
-        
 
-jogo = jogodaVelha()
-jogo.entrada()
+t = tabuleiro()       
+j = JogodaVelha(t)
+j.entrada()
         
 

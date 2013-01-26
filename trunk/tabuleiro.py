@@ -15,3 +15,7 @@ class Tabuleiro():
         print self.tabuleiro[3] ,'|',self.tabuleiro[4],'|',self.tabuleiro[5]
         print '___________'
         print self.tabuleiro[6] ,'|',self.tabuleiro[7],'|',self.tabuleiro[8]
+
+
+t = Tabuleiro()
+t.mostraTabuleiro()

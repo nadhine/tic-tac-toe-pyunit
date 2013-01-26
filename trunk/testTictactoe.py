@@ -11,10 +11,10 @@ class ChecarEntradaValida(unittest.TestCase):
         jogo = tictactoe
         numJogador = jogo.numJogador
         assert numJogador == 1 or numJogador == 2
-   # def checarNumeroPosicao(self):
-    #    assert self.entrada <= 0 and self.entrada >=8
+# def checarNumeroPosicao(self):
+#    assert self.entrada <= 0 and self.entrada >=8
     
-
+testCase = ChecarEntradaValida()
         
      
             
